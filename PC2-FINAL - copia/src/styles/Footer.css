@@ -1,0 +1,90 @@
+.FooterSection {
+  background: #2d7586;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0.8rem;
+}
+
+.FooterContent p {
+  color: #f8f8f8;
+  margin-top: 1rem; 
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.example-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; 
+}
+
+.icon-content {
+  position: relative;
+}
+
+.icon-content a {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px; 
+  height: 34px; 
+  border-radius: 50%;
+  color: #2d7586; 
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-content a:hover {
+  background-color: transparent;
+  box-shadow: 3px 2px 45px 0px rgba(0, 0, 0, 0.12);
+  color: white;
+}
+
+.icon-content a svg {
+  position: relative;
+  z-index: 1;
+  width: 20px; 
+  height: 20px; 
+}
+
+.icon-content a .filled {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #000;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-content a:hover .filled {
+  height: 100%;
+}
+
+.icon-content a[data-social="linkedin"] .filled {
+  background-color: #0274b3;
+}
+
+.icon-content a[data-social="github"] .filled {
+  background-color: #24262a;
+}

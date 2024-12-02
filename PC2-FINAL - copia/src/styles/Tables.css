@@ -1,0 +1,59 @@
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.bottom-section > div {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+
+table th {
+    background-color: #47a7be;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e9e9e9;
+}
+
+.RAMtable, .REGISTERtable {
+    width: auto;
+    margin: 0 auto;
+}
+
+.RAMtable, .REGISTERtable {
+    display: block;
+    max-height: 35rem;
+    overflow-y: auto;
+}
+
+.RAMtable thead, .REGISTERtable thead, .RAMtable tbody tr, .REGISTERtable tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}

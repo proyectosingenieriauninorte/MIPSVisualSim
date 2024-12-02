@@ -1,0 +1,19 @@
+.HeaderSection {
+  background: #2d7586;
+  margin-bottom: 2rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.titleHeader {
+  color: #f8f8f8;
+  font-size: 2rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.headerIcon {
+  height: 2.5rem;
+}
